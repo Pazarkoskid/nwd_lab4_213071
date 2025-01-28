@@ -20,8 +20,7 @@ const showEditor=ref(false);
 <style scoped>
   *{
     text-align: center;
-    margin: auto;
-    margin-top: 30px;
+    margin: 60px auto 0;
     max-width: 800px;
   }
   input {

@@ -91,6 +91,7 @@ import {useSearch} from "@/composable/useSearch.js";
 .articles-list article{
   display: flex;
   flex-direction: column;
+  padding: 0;
   gap: 10px;
   border: 1px solid black;
   align-items: center;
@@ -107,7 +108,11 @@ button {
 }
 
 .article-text {
-  padding: 15px;
+  padding: 15px 0;
+}
+
+.thumbnail {
+  margin-right: 30px;
 }
 
 .date {
