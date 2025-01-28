@@ -52,12 +52,7 @@ import {useSearch} from "@/composable/useSearch.js";
         <div>Filter by: </div>
         <input type="checkbox" id="title" value="title" v-model="filters" />
         <label for="title">By Title</label>
-        <input
-            type="checkbox"
-            id="content"
-            value="description"
-            v-model="filters"
-        />
+        <input type="checkbox" id="content" value="description" v-model="filters"/>
         <label for="content">By Content</label>
       </fieldset>
       <ul class="articles-list">
